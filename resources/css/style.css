@@ -38,7 +38,6 @@
   text-align: center;
 }
 
-
 .pages,
 .footer_links {
   letter-spacing: -0.5px;
@@ -47,7 +46,7 @@
   font-weight: 700;
 }
 
-.pages {
+.pages,li,.pages:active {
   background: linear-gradient(to right, #1f45f5 0%, #751ff5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -62,15 +61,11 @@
   font-weight: 700;
   letter-spacing: -0.2px;
   font-family: "Circular-Regular";
-  text-align: left;
-  padding-left: 70px;
 }
 
 .text_nosotros {
   letter-spacing: -0.2px;
   font-family: "Circular-Regular";
-  text-align: left;
-  padding-left: 70px;
 }
 .text-service {
   margin-top: 10px;
@@ -133,21 +128,41 @@
   margin-bottom: 120px;
 }
 
-#estructura {
-  display:grid;
-  grid-template-columns: auto auto ;
-  grid-template-areas: "header header" "contenido contenido" "footer footer";
-  grid-row-gap: 20px;
+.navBar,.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.contacto{
+  display: grid;
+  grid-template-columns: 60% 30%;
 }
 
-header {
-  grid-area: header;
+.container {
+  display:grid;
+  grid-template-areas: "navBar navBar" "contenido1 contenido1" "contenido2 contenido2" "contenido3 contenido3" "footer footer";
+  grid-row-gap: 50px ;
 }
-#contenido {
-  grid-area: contenido;
+
+.navBar {
+  grid-area: navBar;
 }
+
+#contenido1 {
+  grid-area: contenido1;
+}
+
+#contenido2 {
+  grid-area: contenido2;
+}
+
+#contenido3 {
+  grid-area: contenido3;
+}
+
 footer {
   grid-area: footer;
+  justify-content:end;
 }
 
 .row {
@@ -199,4 +214,9 @@ footer {
   .description_blog {
     font-size: 19px;
   }
+
+  .contacto :nth-child(2) {
+    margin-top: 30px;
+  }
+  
 }
