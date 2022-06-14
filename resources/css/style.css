@@ -51,6 +51,11 @@
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.nav{
+  flex-wrap: nowrap!important;
 }
 .caja {
   padding: 40px;
@@ -128,7 +133,7 @@
   margin-bottom: 120px;
 }
 
-.navBar,.footer{
+/* .navBar,.footer{
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
@@ -137,8 +142,8 @@
   display: grid;
   grid-template-columns: 60% 30%;
 }
-
-.container {
+ */
+/* .container {
   display:grid;
   grid-template-areas: "navBar navBar" "contenido1 contenido1" "contenido2 contenido2" "contenido3 contenido3" "footer footer";
   grid-row-gap: 50px ;
@@ -163,7 +168,7 @@
 footer {
   grid-area: footer;
   justify-content:end;
-}
+} */
 
 .row {
   margin: 0px !important;

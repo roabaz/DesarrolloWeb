@@ -7,37 +7,104 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="../resources/assets/favicon.png">
     <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <div class="background container">
-        <header class="navBar">
-            <div>
-                <a class="navbar-brand resaltar_texto" href="../index.html">NDV Marketing</a>
-                <a class="phone" href="tel:+59899456512">+598 99 456 512</a>
-            </div>
-            <div class="" id="navbarNavAltMarkup">
-                <ul class="nav pages">
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item animate__animated animate__pulse">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Hablemos</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light mt-xl-5 mt-3">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand resaltar_texto animate__animated animate__bounce" href="../index.html">NDV
+                        Marketing</a>
+                    <a class="phone" href="tel:+59899456512">+598 99 456 512</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header bg-dark">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <a class="navbar-brand text-white animate__animated animate__bounce"
+                                    href="../index.html">NDV
+                                    Marketing
+                                </a>
+                            </h5>
+                            <button type="button" class="btn-close text-white h4 font-weight-bold"
+                                data-bs-dismiss="offcanvas">X
+                            </button>
+                        </div>
+                        <ul class="nav pages d-block d-xl-none">
+                            <hr>
+                            <li class=" col-12 float-left">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item col-12">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item col-12">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item col-12">
+                                <a class="nav-link text-white" href="contacto.html">Hablemos</a>
+                            </li>
+                            <hr>
+                        </ul>
 
-        <section id="contenido1" class='text_widget'>
+                        <div class="d-block d-xl-none">
+                            <p class="text-white h2">Contacto:</p>
+                            <a class="footer_links text-white" target="_blank" href="hola@ndv.com.uy">
+                                <p>hola@ndv.com.uy</p>
+                            </a>
+                            <a class="footer_links text-white" target="_blank" href="tel:+59899456512">
+                                <p class="">+598 99 456 512</p>
+                            </a>
+                            <a class="footer_links text-white" target="_blank"
+                                href="https://api.whatsapp.com/send?phone=+59899456512&text=hola quiro asesorarme por marketing">
+                                <p class="">WhatsApp</p>
+                            </a>
+                        </div>
+                        <hr class='d-block d-xl-none' />
+                        <div class="d-block d-xl-none">
+                            <p class="text-white h2">Seguinos en:</p>
+                            <a class="footer_links" target="_blank" href="https://instagram.com">
+                                <p class="text-white">Instagram</p>
+                            </a>
+                            <a class="footer_links" target="_blank" href="https://linkedin.com">
+                                <p class="text-white">Linkedin</p>
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav pages">
+                            <li class="nav-item animate__animated animate__pulse">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Hablemos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section  class='text_widget mt-4 mb-5'>
             <h1 class='titulo_principal'>Blog</h1>
             <article>
                 <img class="image_blog" src="../resources/assets/1015x500_paginaweb.jpg">
@@ -47,30 +114,33 @@
                         </p>
             </article>
         </section>
-        <footer class='footer border-top'>
-            <div>
-                <a class='footer_links' target="_blank" href="hola@ndv.com.uy">
+        <footer class="row footer border-top mx-auto p-5">
+            <div class="col-6">
+                <a class="footer_links" target="_blank" href="hola@ndv.com.uy">
                     <p>Envianos un email a: hola@ndv.com.uy</p>
                 </a>
-                <a class='footer_links' target="_blank" href="tel:+59899456512">
-                    <p class=''>Llamanos al: +598 99 456 512</p>
+                <a class="footer_links" target="_blank" href="tel:+59899456512">
+                    <p class="">Llamanos al: +598 99 456 512</p>
                 </a>
-                <a class='footer_links' target="_blank"
+                <a class="footer_links" target="_blank"
                     href="https://api.whatsapp.com/send?phone=+59899456512&text=hola quiro asesorarme por marketing">
-                    <p class=''>Envíanos un mensaje de WhatsApp</p>
+                    <p class="">Envíanos un mensaje de WhatsApp</p>
                 </a>
             </div>
-            <hr>
-            <div>
-                <a class='footer_links' target="_blank" href="https://instagram.com">
-                    <p class=''>Instagram</p>
+
+            <div class="col-6">
+                <a class="footer_links" target="_blank" href="https://instagram.com">
+                    <p class="">Instagram</p>
                 </a>
-                <a class='footer_links' target="_blank" href="https://linkedin.com">
-                    <p class=''>Linkedin</p>
+                <a class="footer_links" target="_blank" href="https://linkedin.com">
+                    <p class="">Linkedin</p>
                 </a>
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 
