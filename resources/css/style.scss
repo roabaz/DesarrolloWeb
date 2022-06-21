@@ -1,3 +1,6 @@
+@import "variables";
+@import "mixins";
+
 .titulo_principal {
   font-size: 55px;
   line-height: 65px;
@@ -8,8 +11,7 @@
 }
 
 .resaltar_texto {
-  background: -webkit-gradient(linear, left top, right top, from(#1f45f5), to(#751ff5));
-  background: linear-gradient(to right, #1f45f5 0%, #751ff5 100%);
+  background: $text_gradient;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -28,14 +30,11 @@
 }
 
 .links_nav_bar {
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
+  justify-content: baseline;
 }
 
 .text_widget {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .background {
@@ -54,8 +53,7 @@
 .pages,
 li,
 .pages:active {
-  background: -webkit-gradient(linear, left top, right top, from(#1f45f5), to(#751ff5));
-  background: linear-gradient(to right, #1f45f5 0%, #751ff5 100%);
+  background: $text_gradient;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,38 +61,37 @@ li,
 }
 
 .nav {
-  -ms-flex-wrap: nowrap !important;
-      flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
 }
 
 .caja {
   padding: 40px;
-  background-color: #d0beec;
+  background-color: $nosotros_box_color;
 }
 
 .title_nosotros {
   font-size: 25px;
   font-weight: 700;
   letter-spacing: -0.2px;
-  font-family: "Circular-Regular";
+  font-family: $text_font;
 }
 
 .title_blog {
   letter-spacing: -0.2px;
-  font-family: "Circular-Regular";
+  font-family: $text_font;
   text-align: left;
   margin-left: -20px;
 }
 
 .text_nosotros {
   letter-spacing: -0.2px;
-  font-family: "Circular-Regular";
+  font-family: $text_font;
 }
 
 .text-service {
   margin-top: 10px;
   font-size: 15px;
-  font-family: "Circular-Regular";
+  font-family: $text_font;
   line-height: 35px;
   width: 100%;
   letter-spacing: -0.2px;
@@ -102,38 +99,17 @@ li,
 
 .description {
   margin-top: 30px;
-  text-align: left;
-  font-weight: 100;
-  font-size: 19px;
-  line-height: 30px;
-  letter-spacing: -0.015em;
-  font-family: "Circular-Regular";
-  color: #404040;
-  text-rendering: optimizeLegibility;
+  @include text_description;
 }
 
 .description_blog {
   margin-top: 20px;
-  text-align: left;
-  font-weight: 100;
-  font-size: 19px;
-  line-height: 30px;
-  letter-spacing: -0.015em;
-  font-family: "Circular-Regular";
-  color: #404040;
-  text-rendering: optimizeLegibility;
+  @include text_description;
 }
 
 .description_servicios {
   margin-top: 20px;
-  text-align: left;
-  font-weight: 100;
-  font-size: 19px;
-  line-height: 30px;
-  letter-spacing: -0.015em;
-  font-family: "Circular-Regular";
-  color: #404040;
-  text-rendering: optimizeLegibility;
+  @include text_description;
 }
 
 .image {
@@ -154,15 +130,9 @@ li,
 }
 
 .lista {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* inicio Querys */
@@ -181,8 +151,7 @@ li,
     line-height: 40px;
   }
   .text_widget {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .row {
     margin: 0px !important;
@@ -217,6 +186,4 @@ li,
     margin-left: 0px;
   }
 }
-
 /* fin Querys */
-/*# sourceMappingURL=style.css.map */
