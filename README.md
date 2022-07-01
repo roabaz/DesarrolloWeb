@@ -1,4 +1,4 @@
-# coder_house
+## coder_house
 
 # Link repo gitHub
 https://github.com/roabaz/coder_house
@@ -8,3 +8,9 @@ https://roabaz.github.io/coder_house/
 
 # link page server
 https://ndv.com.uy/
+
+
+# Descripcion de cambios
+Se implementaron meta etiquetas para SEO, title, description, keywords para cada landing.
+Se modificaron textos, componentes y estilos.
+
