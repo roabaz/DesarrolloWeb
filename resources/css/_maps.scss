@@ -1,0 +1,17 @@
+$titulos:(
+    font: 45px,
+    line-h: 65px,
+    letter: -2px,
+    col: #404040,
+    w: 700,
+    align: left,
+);
+
+.titulo_principal {
+    font-size:map-get($titulos, font);
+    line-height:map-get($titulos, line-h);
+    letter-spacing:map-get($titulos, letter);
+    color:map-get($titulos, col);
+    font-weight:map-get($titulos, w);
+    text-align:map-get($titulos, align);
+  }

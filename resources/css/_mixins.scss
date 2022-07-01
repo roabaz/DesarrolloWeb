@@ -1,10 +1,9 @@
 @mixin text_description{
-    text-align: left;
     font-weight: 100;
     font-size: 19px;
     line-height: 30px;
     letter-spacing: -0.015em;
-    font-family: "Circular-Regular";
-    color: #404040;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #181818;
     text-rendering: optimizeLegibility;
 }
