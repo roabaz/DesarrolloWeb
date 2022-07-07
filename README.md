@@ -13,5 +13,6 @@ https://ndv.com.uy/
 # Descripcion de cambios
 Se implementaron meta etiquetas para SEO, title, description, keywords para cada landing.
 Se modificaron textos, componentes y estilos.
-Se implementa send email con php, falta hacerle un redirect nomas al html de contacto, en proximas versiones
+Se implementa send email con php
+Se implementa redirect a contacto.php con mensaje de enviado
 

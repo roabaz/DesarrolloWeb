@@ -26,7 +26,6 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-
                 <div>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
@@ -80,17 +79,13 @@
         </nav>
 
         <section class='text_widget mt-5'>
-
             <h1 class='titulo_principal mb-5 text-center'>
                 Listos para <br> trabajar juntos.
             </h1>
         </section>
         <section class="row contacto pb-5 mb-3">
             <div class="col-xl-8 col-12 mx-auto">
-
-
                 <form id="contact" action="send_email.php" method="post">
-
                     <div class="form-group">
                         <p class="text-left" for="exampleInputPassword1">Tu nombre</p>
                         <input type="text" name="name" class="form-control" required>
@@ -119,12 +114,10 @@
                 </div>
 
             </div>
-
-
         </section>
         <footer class="row  footer border-top mx-auto pt-4">
             <div class="col-xl-4 col-5 mx-auto">
-                ¿Hablamos? →
+            <span>¿Hablamos? →</span>
                 <a class="footer_links" target="_blank" href="mailto:hola@ndv.com.uy">
                     hola@ndv.com.uy
                 </a>
