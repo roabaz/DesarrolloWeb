@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://ndv.com.uy/</loc>
+    <lastmod>2022-07-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/index.html</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://ndv.com.uy/pages/nosotros</loc>
+    <lastmod>2022-07-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/pages/nosotros.html</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://ndv.com.uy/pages/servicios</loc>
+    <lastmod>2022-07-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/pages/servicios.html</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://ndv.com.uy/pages/blog</loc>
+    <lastmod>2022-07-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/pages/blog.html</loc>
-    <lastmod>2022-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://localhost/CoderHouseFullStack/web%20naty/pages/contacto.html</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://ndv.com.uy/pages/contacto</loc>
+    <lastmod>2022-07-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

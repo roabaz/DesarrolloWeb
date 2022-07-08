@@ -5,7 +5,7 @@ const log = console.log;
 const sep = () => log("".padEnd(80, "-"));
 const chalk = require('chalk');
 
-let baseUrl = 'http://localhost/CoderHouseFullStack/web%20naty/';
+let baseUrl = 'https://ndv.com.uy/';
 baseUrl = process.argv[2] ? process.argv[2] : baseUrl;
 
 sep();
