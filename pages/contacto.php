@@ -91,15 +91,15 @@
                         <input type="text" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <p class="text-left" for="exampleInputPassword1">Tu teléfono</p>
+                        <p class="text-left pt-3" for="exampleInputPassword1">Tu teléfono</p>
                         <input type="text" name="phone" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <p class="text-left" for="exampleInputEmail1">Tu e-email</p>
+                        <p class="text-left pt-3" for="exampleInputEmail1">Tu e-email</p>
                         <input type="text" name="email" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <p class="text-left" for="exampleFormControlTextarea1">Tu mensaje</p>
+                        <p class="text-left pt-3" for="exampleFormControlTextarea1">Tu mensaje</p>
                         <textarea type="text" name="message" class="form-control" rows="3" required></textarea>
                     </div>
                     <button type="submit" name="submit" value="Submit" class="btn btn-primary mt-3">Enviar</button>
