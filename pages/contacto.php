@@ -108,7 +108,7 @@
                 <div>
                     <?php
                     if ($_GET['success']) {
-                        echo '<p class="alert-success mt-3 p-3 col-6">' . $_GET['success'] . ' </p>';
+                        echo '<p class="alert-success mt-3 p-3 col-12 col-xl-6">' . $_GET['success'] . ' </p>';
                     }
                     ?>
                 </div>
