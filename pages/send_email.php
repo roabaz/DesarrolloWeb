@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
     if ($result1 ) {
         $success = "Tu mensaje fue enviado satisfactoriamente!";
         
-        header("Location: https://ndv.com.uy/pages/contacto.php?success=$success");
+        header("Location: https://ndv.com.uy/pages/contacto?success=$success");
             die();
         //echo ''.$message.' '.$email.'';
 
