@@ -16,9 +16,9 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light mt-xl-4 mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light mt-xl-5 mt-3">
             <div class="container-fluid">
-                <div>
+            <div>
                     <a class="navbar-brand" href="../index">
                         <img class="brand" src="../resources/assets/logo.png">
                     </a>
@@ -77,7 +77,9 @@
                 </div>
             </div>
         </nav>
-
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240"><path fill="#ff5500" fill-opacity=".12" d="M0,128L16,128C32,128,64,128,96,138.7C128,149,160,171,192,160C224,149,256,107,288,80C320,53,352,43,384,37.3C416,32,448,32,480,58.7C512,85,544,139,576,176C608,213,640,235,672,229.3C704,224,736,192,768,149.3C800,107,832,53,864,58.7C896,64,928,128,960,154.7C992,181,1024,171,1056,149.3C1088,128,1120,96,1152,74.7C1184,53,1216,43,1248,64C1280,85,1312,139,1344,176C1376,213,1408,235,1424,245.3L1440,256L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path></svg>
+        <div class="container">
         <section class='text_widget mt-5'>
             <h1 class='titulo_principal mb-5 text-center'>
                 Listos para <br> trabajar juntos.

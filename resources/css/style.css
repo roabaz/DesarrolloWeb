@@ -17,6 +17,30 @@ a {
   padding: 10px;
 }
 
+.background_img_welcome {
+  background-image: url("../assets/circle-scatter-haikei.svg");
+  background-size: 100% 100% !important;
+  padding: 70px 0 177px 0;
+}
+
+.background_img_welcome2 {
+  background-image: url("../assets/circle-scatter-haikei2.svg");
+  background-size: 100% 100% !important;
+  padding: 170px 0 177px 0;
+}
+
+.background_img_welcome3 {
+  background-image: url("../assets/circle-scatter-haikei3.svg");
+  background-size: 100% 100% !important;
+  padding: 170px 0 222px 0;
+}
+
+.background_img_nosotros {
+  background-image: url("../assets/nosotros.svg");
+  background-size: 100% 100% !important;
+  padding: 170px 0 122px 0;
+}
+
 .resaltar_texto {
   background: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(60%, #97200d));
   background: linear-gradient(to right, #000000 0%, #97200d 60%);
@@ -147,6 +171,10 @@ li,
   color: #181818;
   text-rendering: optimizeLegibility;
   margin-bottom: 30px;
+  background-color: rgba(253, 89, 73, 0.2);
+  padding: 30px;
+  font-weight: 400;
+  border-top: 5px solid #fd5949;
 }
 
 .description_blog {
@@ -187,7 +215,7 @@ li,
 
 .image_nosotros {
   height: auto;
-  width: 50%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -273,6 +301,9 @@ li,
   .caja {
     padding: 10px;
   }
+  .background_img_welcome, .background_img_welcome2, .background_img_welcome3, .background_img_nosotros {
+    padding: 0px 0px 0px 0px;
+  }
   .text_nosotros {
     text-align: center;
     padding-left: 0px !important;
@@ -291,6 +322,10 @@ li,
   }
   .image_blog {
     width: 400px;
+  }
+  .image_nosotros {
+    height: auto;
+    width: 50%;
   }
   .description {
     margin-left: 0px;
