@@ -16,4 +16,5 @@ https://roabaz.github.io/coder_house/
 ## Se modificaron textos, componentes y estilos.
 ## Se implementa send email con php
 ## Se implementa redirect a contacto.php con mensaje de enviado
+## Se crea landing de linktree para el link en instagram
 
